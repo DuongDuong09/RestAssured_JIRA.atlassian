@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "summary": "summary from api",
+    "project": {
+      "key": "DUONGNGUYE"
+    },
+    "issuetype": {
+      "id": "10001"
+    }
+  }
+}

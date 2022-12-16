@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite"  >
+    <listeners>
+        <listener class-name="extent_report.ReportListener"></listener>
+    </listeners>
+    <test name ="api testing">
+        <classes>
+            <class name="testcase.CreateIssue"></class>
+            <class name="testcase.GetProject"></class>
+            <class name="testcase.DeleteIssue"></class>
+            <class name="testcase.GetComment"></class>
+            <class name="testcase.Transition"></class>
+        </classes>
+    </test>
+</suite>
